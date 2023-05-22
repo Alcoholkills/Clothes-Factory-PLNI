@@ -4,6 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <title>PLNI Creator</title>
+    <style>
+        #Image1 {
+            background-color: blue;
+        }
+        #Image2 {
+            background-color: red;
+        }
+        #Image3 {
+            background-color: green;
+        }
+    </style>
 </head>
 
 <body>
@@ -162,9 +173,9 @@
             </div>
             <div id="Image">
                 <h2>Image</h2>
-                <input type="button" value="-">
-                <input type="button" value="+">
-                <div id="Image1">
+                <input type="button" value="-" id="-">
+                <input type="button" value="+" id="+">
+                <div id="Image1" class="Image">
                     <div id="ImageTypes1">
                         <h3>Image Types</h3>
                         <ul>
@@ -250,7 +261,7 @@
                         </ul>
                     </div>
                 </div>
-                <div hidden id="Image2">
+                <div hidden id="Image2" class="Image">
                     <div id="ImageTypes2">
                         <h3>Image Types</h3>
                         <ul>
@@ -336,7 +347,7 @@
                         </ul>
                     </div>
                 </div>
-                <div hidden id="Image3">
+                <div hidden id="Image3" class="Image">
                     <div id="ImageTypes3">
                         <h3>Image Types</h3>
                         <ul>
@@ -433,5 +444,5 @@
         </div>
     </form>
 </body>
-
+<script src="index.js"></script>
 </html>

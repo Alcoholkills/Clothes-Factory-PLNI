@@ -12,6 +12,8 @@
       - [ImagePlaces](#imageplaces)
       - [ImageSizes](#imagesizes)
     - [Prices](#prices)
+  - [Mutex](#mutex)
+  - [Reauirees](#reauirees)
 
 Production of images on chest clothes
 
@@ -95,3 +97,10 @@ Production of images on chest clothes
 - Average price
 - Expensive
 - Luxurious
+
+## Mutex
+
+- Clothes.T-Shirt, Clothes.Sweeter, Clothes.TankTop `mutex` Neck.Shirt
+- Clothes.Hoodie, Clothes.
+
+## Reauirees

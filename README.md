@@ -1,16 +1,17 @@
 # Clothes-Factory-PLNI
 
-- [Project](#project)
+- [Clothes-Factory-PLNI](#clothes-factory-plni)
   - [Features](#features)
     - [Clothes](#clothes)
     - [Sizes](#sizes)
-    - [Shape](#shape)
-    - [Color](#color)
-    - [Neck shape](#neck-shape)
-    - [Images](#images)
-    - [Image placement](#image-placement)
-    - [Image size](#image-size)
-    - [Price](#price)
+    - [Shapes](#shapes)
+    - [Colors](#colors)
+    - [Necks](#necks)
+    - [Image](#image)
+      - [ImageTypes](#imagetypes)
+      - [ImagePlaces](#imageplaces)
+      - [ImageSizes](#imagesizes)
+    - [Prices](#prices)
 
 Production of images on chest clothes
 
@@ -34,14 +35,14 @@ Production of images on chest clothes
 - XL
 - XXL
 
-### Shape
+### Shapes
 
 - Man
 - Woman
 - Baggy
 - Skinny
 
-### Color
+### Colors
 
 - Black
 - White
@@ -52,21 +53,23 @@ Production of images on chest clothes
 - Lilac
 - Light blue
 
-### Neck shape
+### Necks
 
 - V shape
 - U shape
 - Round shape
 - Turtle neck
 
-### Images
+### Image
+
+#### ImageTypes
 
 - Prints
 - Sewed
 - Full-sewed
 - Painted
 
-### Image placement
+#### ImagePlaces
 
 - Right sleeve
 - Left sleeve
@@ -79,13 +82,13 @@ Production of images on chest clothes
 - Top back
 - Below back
 
-### Image size
+#### ImageSizes
 
 - Small
 - Medium
 - Large
 
-### Price
+### Prices
 
 - Rag
 - Cheap

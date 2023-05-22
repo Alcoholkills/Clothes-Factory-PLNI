@@ -47,7 +47,7 @@ Production of images on chest clothes
 - Black
 - White
 - Cream
-- Mint Green
+- Pastel Green
 - Dark Red
 - Gray
 - Lilac

@@ -7,250 +7,431 @@
 </head>
 
 <body>
-    <div>
-        <h1>Customize your clothes</h1>
-        <div id="Clothes">
-            <h2>Clothes</h2>
-            <ul>
-                <li>
-                    <input type="radio" name="clothe" id="tshirt">
-                    <label for="tshirt">T-Shirt</label>
-                </li>
-                <li>
-                    <input type="radio" name="clothe" id="shirt">
-                    <label for="shirt">Shirt</label>
-                </li>
-                <li>
-                    <input type="radio" name="clothe" id="hoodie">
-                    <label for="hoodie">Hoodie</label>
-                </li>
-                <li>
-                    <input type="radio" name="clothe" id="sweeter">
-                    <label for="sweeter">Sweeter</label>
-                </li>
-                <li>
-                    <input type="radio" name="clothe" id="tanktop">
-                    <label for="tanktop">Tank top</label>
-                </li>
-            </ul>
-
-        </div>
-        <div id="Sizes">
-            <h2>Sizes</h2>
-            <ul>
-                <li>
-                    <input type="radio" name="size" id="xxs">
-                    <label for="xxs">XXS</label>
-                </li>
-                <li>
-                    <input type="radio" name="size" id="xs">
-                    <label for="xs">XS</label>
-                </li>
-                <li>
-                    <input type="radio" name="size" id="s">
-                    <label for="s">S</label>
-                </li>
-                <li>
-                    <input type="radio" name="size" id="m">
-                    <label for="m">M</label>
-                </li>
-                <li>
-                    <input type="radio" name="size" id="l">
-                    <label for="l">L</label>
-                </li>
-                <li>
-                    <input type="radio" name="size" id="xl">
-                    <label for="xl">XL</label>
-                </li>
-                <li>
-                    <input type="radio" name="size" id="xxl">
-                    <label for="xxl">XXL</label>
-                </li>
-            </ul>
-        </div>
-        <div id="Shapes">
-            <h2>Shapes</h2>
-            <div id="Genders">
-                <h3>Gender</h3>
+    <form action="" method="post">
+        <div>
+            <h1>Customize your clothes</h1>
+            <div id="Clothes">
+                <h2>Clothes</h2>
                 <ul>
                     <li>
-                        <input type="radio" name="gender" id="man">
-                        <label for="man">Man</label>
+                        <input required type="radio" name="clothe" id="tshirt" value="tshirt">
+                        <label for="tshirt">T-Shirt</label>
                     </li>
                     <li>
-                        <input type="radio" name="gender" id="woman">
-                        <label for="woman">Woman</label>
-                    </li>
-                </ul>
-            </div>
-            <div id="Styles">
-                <h3>Styles</h3>
-                <ul>
-                    <li>
-                        <input type="radio" name="style" id="baggy">
-                        <label for="baggy">Baggy</label>
+                        <input type="radio" name="clothe" id="shirt" value="shirt">
+                        <label for="shirt">Shirt</label>
                     </li>
                     <li>
-                        <input type="radio" name="style" id="skiny">
-                        <label for="skiny">Skiny</label>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <div id="Colors">
-            <h2>Colors</h2>
-            <ul>
-                <li>
-                    <input type="radio" name="color" id="black">
-                    <label for="black">Black</label>
-                </li>
-                <li>
-                    <input type="radio" name="color" id="white">
-                    <label for="white">White</label>
-                </li>
-                <li>
-                    <input type="radio" name="color" id="grey">
-                    <label for="grey">Grey</label>
-                </li>
-                <li>
-                    <input type="radio" name="color" id="pastelgreen">
-                    <label for="pastelgreen">Pastel Green</label>
-                </li>
-                <li>
-                    <input type="radio" name="color" id="cream">
-                    <label for="cream">Cream</label>
-                </li>
-                <li>
-                    <input type="radio" name="color" id="darkred">
-                    <label for="darkred">Dark Red</label>
-                </li>
-                <li>
-                    <input type="radio" name="color" id="lilac">
-                    <label for="lilac">Lilac</label>
-                </li>
-                <li>
-                    <input type="radio" name="color" id="lightblue">
-                    <label for="lightblue">Light Blue</label>
-                </li>
-            </ul>
-        </div>
-        <div id="Necks">
-            <h2>Necks</h2>
-            <ul>
-                <li>
-                    <input type="radio" name="neck" id="ushape">
-                    <label for="ushape">U Shape</label>
-                </li>
-                <li>
-                    <input type="radio" name="neck" id="vshape">
-                    <label for="vshape">V Shape</label>
-                </li>
-                <li>
-                    <input type="radio" name="neck" id="round">
-                    <label for="round">Round</label>
-                </li>
-                <li>
-                    <input type="radio" name="neck" id="turtle">
-                    <label for="turtle">Turtle</label>
-                </li>
-                <li>
-                    <input type="radio" name="neck" id="shirtneck">
-                    <label for="shirtneck">Shirt like</label>
-                </li>
-            </ul>
-        </div>
-        <div id="Image">
-            <h2>Image</h2>
-            <div id="ImageTypes">
-                <h3>Image Types</h3>
-                <ul>
-                    <li>
-                        <input type="radio" name="imagetype" id="prints">
-                        <label for="prints">Print</label>
+                        <input type="radio" name="clothe" id="hoodie" value="hoodie">
+                        <label for="hoodie">Hoodie</label>
                     </li>
                     <li>
-                        <input type="radio" name="imagetype" id="sewed">
-                        <label for="sewed">Sewed</label>
+                        <input type="radio" name="clothe" id="sweeter" value="sweeter">
+                        <label for="sweeter">Sweeter</label>
                     </li>
                     <li>
-                        <input type="radio" name="imagetype" id="fullysewed">
-                        <label for="fullysewed">Fully Sewed</label>
-                    </li>
-                    <li>
-                        <input type="radio" name="imagetype" id="painted">
-                        <label for="painted">Painted</label>
-                    </li>
-                </ul>
-            </div>
-            <div id="ImagePlaces">
-                <h3>Image Places</h3>
-                <ul>
-                    <li>
-                        <input type="checkbox" name="imageplace" id="lsleeve">
-                        <label for="lsleeve">Left Sleeve</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" name="imageplace" id="rsleeve">
-                        <label for="rsleeve">Right Sleeve</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" name="imageplace" id="lshoulder">
-                        <label for="lshoulder">Left Shoulder</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" name="imageplace" id="rshoulder">
-                        <label for="rshoulder">Right Shoulder</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" name="imageplace" id="lchest">
-                        <label for="lchest">Chest, on the left</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" name="imageplace" id="rchest">
-                        <label for="rchest">Chest, on the right</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" name="imageplace" id="chest">
-                        <label for="chest">Full Chest</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" name="imageplace" id="belly">
-                        <label for="belly">Belly</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" name="imageplace" id="topback">
-                        <label for="topback">Back, on the top part</label>
-                    </li>
-                    <li>
-                        <input type="checkbox" name="imageplace" id="lowback">
-                        <label for="lowback">Back, on the lower part</label>
+                        <input type="radio" name="clothe" id="tanktop" value="tanktop">
+                        <label for="tanktop">Tank top</label>
                     </li>
                 </ul>
 
             </div>
-            <div id="ImageSizes">
-                <h3>Image Sizes</h3>
+            <div id="Sizes">
+                <h2>Sizes</h2>
                 <ul>
                     <li>
-                        <input type="radio" name="imagesize" id="small">
-                        <label for="small">Small</label>
+                        <input required type="radio" name="size" id="xxs" value="xxs">
+                        <label for="xxs">XXS</label>
                     </li>
                     <li>
-                        <input type="radio" name="imagesize" id="medium">
-                        <label for="medium">Medium</label>
+                        <input type="radio" name="size" id="xs" value="xs">
+                        <label for="xs">XS</label>
                     </li>
                     <li>
-                        <input type="radio" name="imagesize" id="Large">
-                        <label for="large">Large</label>
+                        <input type="radio" name="size" id="s" value="s">
+                        <label for="s">S</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="size" id="m" value="m">
+                        <label for="m">M</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="size" id="l" value="l">
+                        <label for="l">L</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="size" id="xl" value="xl">
+                        <label for="xl">XL</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="size" id="xxl" value="xxl">
+                        <label for="xxl">XXL</label>
                     </li>
                 </ul>
             </div>
-        </div>
-        <div id="Prices">
-            <h3>Prices</h3>
+            <div id="Shapes">
+                <h2>Shapes</h2>
+                <div id="Genders">
+                    <h3>Gender</h3>
+                    <ul>
+                        <li>
+                            <input required type="radio" name="gender" id="man" value="man">
+                            <label for="man">Man</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="gender" id="woman" value="woman">
+                            <label for="woman">Woman</label>
+                        </li>
+                    </ul>
+                </div>
+                <div id="Styles">
+                    <h3>Styles</h3>
+                    <ul>
+                        <li>
+                            <input required type="radio" name="style" id="baggy" value="baggy">
+                            <label for="baggy">Baggy</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="style" id="skiny" value="skiny">
+                            <label for="skiny">Skiny</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="Colors">
+                <h2>Colors</h2>
+                <ul>
+                    <li>
+                        <input required type="radio" name="color" id="black" value="black">
+                        <label for="black">Black</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="color" id="white" value="white">
+                        <label for="white">White</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="color" id="grey" value="grey">
+                        <label for="grey">Grey</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="color" id="pastelgreen" value="pastelgreen">
+                        <label for="pastelgreen">Pastel Green</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="color" id="cream" value="cream">
+                        <label for="cream">Cream</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="color" id="darkred" value="darkred">
+                        <label for="darkred">Dark Red</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="color" id="lilac" value="lilac">
+                        <label for="lilac">Lilac</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="color" id="lightblue" value="lightblue">
+                        <label for="lightblue">Light Blue</label>
+                    </li>
+                </ul>
+            </div>
+            <div id="Necks">
+                <h2>Necks</h2>
+                <ul>
+                    <li>
+                        <input required type="radio" name="neck" id="ushape" value="ushape">
+                        <label for="ushape">U Shape</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="neck" id="vshape" value="vshape">
+                        <label for="vshape">V Shape</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="neck" id="round" value="round">
+                        <label for="round">Round</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="neck" id="turtle" value="turtle">
+                        <label for="turtle">Turtle</label>
+                    </li>
+                    <li>
+                        <input type="radio" name="neck" id="shirtneck" value="shirtneck">
+                        <label for="shirtneck">Shirt like</label>
+                    </li>
+                </ul>
+            </div>
+            <div id="Image">
+                <h2>Image</h2>
+                <input type="button" value="-">
+                <input type="button" value="+">
+                <div id="Image1">
+                    <div id="ImageTypes1">
+                        <h3>Image Types</h3>
+                        <ul>
+                            <li>
+                                <input type="radio" name="imagetype1" id="prints" value="prints">
+                                <label for="prints">Print</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagetype1" id="sewed" value="sewed">
+                                <label for="sewed">Sewed</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagetype1" id="fullysewed" value="fullysewed">
+                                <label for="fullysewed">Fully Sewed</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagetype1" id="painted" value="painted">
+                                <label for="painted">Painted</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="ImagePlaces1">
+                        <h3>Image Places</h3>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="imageplace1" id="lsleeve" value="lsleeve">
+                                <label for="lsleeve">Left Sleeve</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace1" id="rsleeve" value="rsleeve">
+                                <label for="rsleeve">Right Sleeve</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace1" id="lshoulder" value="lshoulder">
+                                <label for="lshoulder">Left Shoulder</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace1" id="rshoulder" value="rshoulder">
+                                <label for="rshoulder">Right Shoulder</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace1" id="lchest" value="lchest">
+                                <label for="lchest">Chest, on the left</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace1" id="rchest" value="rchest">
+                                <label for="rchest">Chest, on the right</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace1" id="chest" value="chest">
+                                <label for="chest">Full Chest</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace1" id="belly" value="belly">
+                                <label for="belly">Belly</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace1" id="topback" value="topback">
+                                <label for="topback">Back, on the top part</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace1" id="lowback" value="lowback">
+                                <label for="lowback">Back, on the lower part</label>
+                            </li>
+                        </ul>
 
+                    </div>
+                    <div id="ImageSizes1">
+                        <h3>Image Sizes</h3>
+                        <ul>
+                            <li>
+                                <input type="radio" name="imagesize1" id="small" value="small">
+                                <label for="small">Small</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagesize1" id="medium" value="medium">
+                                <label for="medium">Medium</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagesize1" id="Large" value="Large">
+                                <label for="large">Large</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div hidden id="Image2">
+                    <div id="ImageTypes2">
+                        <h3>Image Types</h3>
+                        <ul>
+                            <li>
+                                <input type="radio" name="imagetype2" id="prints" value="prints">
+                                <label for="prints">Print</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagetype2" id="sewed" value="sewed">
+                                <label for="sewed">Sewed</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagetype2" id="fullysewed" value="fullysewed">
+                                <label for="fullysewed">Fully Sewed</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagetype2" id="painted" value="painted">
+                                <label for="painted">Painted</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="ImagePlaces2">
+                        <h3>Image Places</h3>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="imageplace2" id="lsleeve" value="lsleeve">
+                                <label for="lsleeve">Left Sleeve</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace2" id="rsleeve" value="rsleeve">
+                                <label for="rsleeve">Right Sleeve</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace2" id="lshoulder" value="lshoulder">
+                                <label for="lshoulder">Left Shoulder</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace2" id="rshoulder" value="rshoulder">
+                                <label for="rshoulder">Right Shoulder</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace2" id="lchest" value="lchest">
+                                <label for="lchest">Chest, on the left</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace2" id="rchest" value="rchest">
+                                <label for="rchest">Chest, on the right</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace2" id="chest" value="chest">
+                                <label for="chest">Full Chest</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace2" id="belly" value="belly">
+                                <label for="belly">Belly</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace2" id="topback" value="topback">
+                                <label for="topback">Back, on the top part</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace2" id="lowback" value="lowback">
+                                <label for="lowback">Back, on the lower part</label>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div id="ImageSizes2">
+                        <h3>Image Sizes</h3>
+                        <ul>
+                            <li>
+                                <input type="radio" name="imagesize2" id="small" value="small">
+                                <label for="small">Small</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagesize2" id="medium" value="medium">
+                                <label for="medium">Medium</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagesize2" id="Large" value="Large">
+                                <label for="large">Large</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div hidden id="Image3">
+                    <div id="ImageTypes3">
+                        <h3>Image Types</h3>
+                        <ul>
+                            <li>
+                                <input type="radio" name="imagetype3" id="prints" value="prints">
+                                <label for="prints">Print</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagetype3" id="sewed" value="sewed">
+                                <label for="sewed">Sewed</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagetype3" id="fullysewed" value="fullysewed">
+                                <label for="fullysewed">Fully Sewed</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagetype3" id="painted" value="painted">
+                                <label for="painted">Painted</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div id="ImagePlaces3">
+                        <h3>Image Places</h3>
+                        <ul>
+                            <li>
+                                <input type="checkbox" name="imageplace3" id="lsleeve" value="lsleeve">
+                                <label for="lsleeve">Left Sleeve</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace3" id="rsleeve" value="rsleeve">
+                                <label for="rsleeve">Right Sleeve</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace3" id="lshoulder" value="lshoulder">
+                                <label for="lshoulder">Left Shoulder</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace3" id="rshoulder" value="rshoulder">
+                                <label for="rshoulder">Right Shoulder</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace3" id="lchest" value="lchest">
+                                <label for="lchest">Chest, on the left</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace3" id="rchest" value="rchest">
+                                <label for="rchest">Chest, on the right</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace3" id="chest" value="chest">
+                                <label for="chest">Full Chest</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace3" id="belly" value="belly">
+                                <label for="belly">Belly</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace3" id="topback" value="topback">
+                                <label for="topback">Back, on the top part</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" name="imageplace3" id="lowback" value="lowback">
+                                <label for="lowback">Back, on the lower part</label>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div id="ImageSizes3">
+                        <h3>Image Sizes</h3>
+                        <ul>
+                            <li>
+                                <input type="radio" name="imagesize3" id="small" value="small">
+                                <label for="small">Small</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagesize3" id="medium" value="medium">
+                                <label for="medium">Medium</label>
+                            </li>
+                            <li>
+                                <input type="radio" name="imagesize3" id="Large" value="Large">
+                                <label for="large">Large</label>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="Prices">
+                <h3>Prices</h3>
+
+            </div>
+            <div id="submitPart">
+                <input type="submit" name="submit" id="submit" value="submit">
+            </div>
         </div>
-    </div>
+    </form>
 </body>
 
 </html>

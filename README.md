@@ -102,9 +102,12 @@ Production of images on chest clothes
 
 - Clothes.T-Shirt, Clothes.Sweeter, Clothes.TankTop `mutex` Neck.Shirt
 - Clothes.Hoodie, Clothes.TankTop `mutex` Neck.Turtle
-- Clothes.TankTop `mutex` ImagePlaces.LeftSleeve, ImagePlace.RightSleeve, ImagePlace.LeftShoulder, ImagePlace.RightShoulder
-- Clothes.T-Shirt `mutex` ImagePlace.LeftSleeve, ImagePlace.RightSleeve
-- ImageSize.Large `mutex` ImagePlace.LeftSleeve, ImagePlace.RightSleeve, ImagePlace.LeftShoulder, ImagePlace.RightShoulder, ImagePlace.LeftChest, ImagePlace.RightChest
+- ImageSize.Large, Clothes.TankTop, Clothes.T-Shirt `mutex` ImagePlaces.LeftSleeve
+- ImageSize.Large, Clothes.TankTop, Clothes.T-Shirt `mutex` ImagePlaces.RightSleeve
+- ImageSize.Large, Clothes.TankTop `mutex` ImagePlaces.LeftShoulder
+- ImageSize.Large, Clothes.TankTop `mutex` ImagePlaces.RightShoulder
+- ImageSize.Large `mutex` ImagePlaces.LeftChest
+- ImageSize.Large `mutex` ImagePlaces.RightChest
 
 ## Requires
 

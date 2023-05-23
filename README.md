@@ -13,7 +13,7 @@
       - [ImageSizes](#imagesizes)
     - [Prices](#prices)
   - [Mutex](#mutex)
-  - [Reauirees](#reauirees)
+  - [Requires](#requires)
 
 Production of images on chest clothes
 
@@ -101,6 +101,12 @@ Production of images on chest clothes
 ## Mutex
 
 - Clothes.T-Shirt, Clothes.Sweeter, Clothes.TankTop `mutex` Neck.Shirt
-- Clothes.Hoodie, Clothes.
+- Clothes.Hoodie, Clothes.TankTop `mutex` Neck.Turtle
+- Clothes.TankTop `mutex` ImagePlaces.LeftSleeve, ImagePlace.RightSleeve, ImagePlace.LeftShoulder, ImagePlace.RightShoulder
+- Clothes.T-Shirt `mutex` ImagePlace.LeftSleeve, ImagePlace.RightSleeve
+- ImageSize.Large `mutex` ImagePlace.LeftSleeve, ImagePlace.RightSleeve, ImagePlace.LeftShoulder, ImagePlace.RightShoulder, ImagePlace.LeftChest, ImagePlace.RightChest
 
-## Reauirees
+## Requires
+
+- Clothes.Shirt `requires` Neck.Shirt
+- Clothes.Hoodie `requires` Shapes.Baggy

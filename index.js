@@ -23,7 +23,7 @@ function addImage() {
 function disableNeckShirt() {
     // Clothes.T-Shirt, Clothes.Sweeter, Clothes.TankTop `mutex` Neck.Shirt
     var mutexArray = ['tshirt', 'sweeter', 'tanktop'];
-    var checked = document.querySelector('input[name="clothe"]:checked'); 
+    var checked = document.querySelector('input[name="clothe"]:checked');
     var neckShirt = document.getElementById('shirtneck');
     if (mutexArray.includes(checked.id)) {
         neckShirt.checked = false;
@@ -36,7 +36,7 @@ function disableNeckShirt() {
 function disableNeckTurtle() {
     // - Clothes.Hoodie, Clothes.TankTop `mutex` Neck.Turtle
     var mutexArray = ['hoodie', 'tanktop']
-    var checked = document.querySelector('input[name="clothe"]:checked'); 
+    var checked = document.querySelector('input[name="clothe"]:checked');
     var neckTurtle = document.getElementById('turtle');
     if (mutexArray.includes(checked.id)) {
         neckTurtle.checked = false;
@@ -50,7 +50,7 @@ function disableSleeves1() {
     // - Clothes.TankTop, Clothes.T-Shirt, ImageSize.Large `mutex` ImagePlaces.RightSleeve
     // - Clothes.TankTop, Clothes.T-Shirt, ImageSize.Large `mutex` ImagePlaces.LeftSleeve
     var mutexArray = ['tshirt', 'tanktop', 'large1'];
-    var clothesChecked = document.querySelector('input[name="clothe"]:checked') ? document.querySelector('input[name="clothe"]:checked') : ''; 
+    var clothesChecked = document.querySelector('input[name="clothe"]:checked') ? document.querySelector('input[name="clothe"]:checked') : '';
     var image1Checked = document.querySelector('input[name="imagesize1"]:checked') ? document.querySelector('input[name="imagesize1"]:checked') : '';
     var imagePlaceRightSleeve1 = document.getElementById('rsleeve1');
     var imagePlaceLeftSleeve1 = document.getElementById('lsleeve1');
@@ -69,7 +69,7 @@ function disableSleeves2() {
     // - Clothes.TankTop, Clothes.T-Shirt, ImageSize.Large `mutex` ImagePlaces.RightSleeve
     // - Clothes.TankTop, Clothes.T-Shirt, ImageSize.Large `mutex` ImagePlaces.LeftSleeve
     var mutexArray = ['tshirt', 'tanktop', 'large2'];
-    var clothesChecked = document.querySelector('input[name="clothe"]:checked') ? document.querySelector('input[name="clothe"]:checked') : ''; 
+    var clothesChecked = document.querySelector('input[name="clothe"]:checked') ? document.querySelector('input[name="clothe"]:checked') : '';
     var image2Checked = document.querySelector('input[name="imagesize2"]:checked') ? document.querySelector('input[name="imagesize2"]:checked') : '';
     var imagePlaceRightSleeve2 = document.getElementById('rsleeve2');
     var imagePlaceLeftSleeve2 = document.getElementById('lsleeve2');
@@ -88,7 +88,7 @@ function disableSleeves3() {
     // - Clothes.TankTop, Clothes.T-Shirt, ImageSize.Large `mutex` ImagePlaces.LeftSleeve
     // - Clothes.TankTop, Clothes.T-Shirt, ImageSize.Large `mutex` ImagePlaces.RightSleeve
     var mutexArray = ['tshirt', 'tanktop', 'large3'];
-    var clothesChecked = document.querySelector('input[name="clothe"]:checked') ? document.querySelector('input[name="clothe"]:checked') : ''; 
+    var clothesChecked = document.querySelector('input[name="clothe"]:checked') ? document.querySelector('input[name="clothe"]:checked') : '';
     var image3Checked = document.querySelector('input[name="imagesize3"]:checked') ? document.querySelector('input[name="imagesize3"]:checked') : '';
     var imagePlaceRightSleeve3 = document.getElementById('rsleeve3');
     var imagePlaceLeftSleeve3 = document.getElementById('lsleeve3');
@@ -107,7 +107,7 @@ function disableShoulder1() {
     // - ImageSize.Large, Clothes.TankTop `mutex` ImagePlaces.LeftShoulder
     // - ImageSize.Large, Clothes.TankTop `mutex` ImagePlaces.RightShoulder
     var mutexArray = ['large1', 'tanktop'];
-    var clothesChecked = document.querySelector('input[name="clothe"]:checked') ? document.querySelector('input[name="clothe"]:checked') : ''; 
+    var clothesChecked = document.querySelector('input[name="clothe"]:checked') ? document.querySelector('input[name="clothe"]:checked') : '';
     var image1Checked = document.querySelector('input[name="imagesize1"]:checked') ? document.querySelector('input[name="imagesize1"]:checked') : '';
     var imagePlaceRightShoulder1 = document.getElementById('rshoulder1');
     var imagePlaceLeftShoulder1 = document.getElementById('lshoulder1');
@@ -126,7 +126,7 @@ function disableShoulder2() {
     // - ImageSize.Large, Clothes.TankTop `mutex` ImagePlaces.LeftShoulder
     // - ImageSize.Large, Clothes.TankTop `mutex` ImagePlaces.RightShoulder
     var mutexArray = ['large2', 'tanktop'];
-    var clothesChecked = document.querySelector('input[name="clothe"]:checked') ? document.querySelector('input[name="clothe"]:checked') : ''; 
+    var clothesChecked = document.querySelector('input[name="clothe"]:checked') ? document.querySelector('input[name="clothe"]:checked') : '';
     var image2Checked = document.querySelector('input[name="imagesize2"]:checked') ? document.querySelector('input[name="imagesize2"]:checked') : '';
     var imagePlaceRightShoulder2 = document.getElementById('rshoulder2');
     var imagePlaceLeftShoulder2 = document.getElementById('lshoulder2');
@@ -145,7 +145,7 @@ function disableShoulder3() {
     // - ImageSize.Large, Clothes.TankTop `mutex` ImagePlaces.LeftShoulder
     // - ImageSize.Large, Clothes.TankTop `mutex` ImagePlaces.RightShoulder
     var mutexArray = ['large3', 'tanktop'];
-    var clothesChecked = document.querySelector('input[name="clothe"]:checked') ? document.querySelector('input[name="clothe"]:checked') : ''; 
+    var clothesChecked = document.querySelector('input[name="clothe"]:checked') ? document.querySelector('input[name="clothe"]:checked') : '';
     var image3Checked = document.querySelector('input[name="imagesize3"]:checked') ? document.querySelector('input[name="imagesize3"]:checked') : '';
     var imagePlaceRightShoulder3 = document.getElementById('rshoulder3');
     var imagePlaceLeftShoulder3 = document.getElementById('lshoulder3');
@@ -164,7 +164,7 @@ function disableChest1() {
     // - ImageSize.Large `mutex` ImagePlaces.LeftChest
     // - ImageSize.Large `mutex` ImagePlaces.RightChest
     var mutexArray = ['large1']
-    var checked = document.querySelector('input[name="imagesize1"]:checked'); 
+    var checked = document.querySelector('input[name="imagesize1"]:checked');
     var imagePlaceLeftChest = document.getElementById('lchest1');
     var imagePlaceRightChest = document.getElementById('rchest1');
     if (mutexArray.includes(checked.id)) {
@@ -182,7 +182,7 @@ function disableChest2() {
     // - ImageSize.Large `mutex` ImagePlaces.LeftChest
     // - ImageSize.Large `mutex` ImagePlaces.RightChest
     var mutexArray = ['large2']
-    var checked = document.querySelector('input[name="imagesize2"]:checked'); 
+    var checked = document.querySelector('input[name="imagesize2"]:checked');
     var imagePlaceLeftChest = document.getElementById('lchest2');
     var imagePlaceRightChest = document.getElementById('rchest2');
     if (mutexArray.includes(checked.id)) {
@@ -200,7 +200,7 @@ function disableChest3() {
     // - ImageSize.Large `mutex` ImagePlaces.LeftChest
     // - ImageSize.Large `mutex` ImagePlaces.RightChest
     var mutexArray = ['large3']
-    var checked = document.querySelector('input[name="imagesize3"]:checked'); 
+    var checked = document.querySelector('input[name="imagesize3"]:checked');
     var imagePlaceLeftChest = document.getElementById('lchest3');
     var imagePlaceRightChest = document.getElementById('rchest3');
     if (mutexArray.includes(checked.id)) {
@@ -214,8 +214,48 @@ function disableChest3() {
     imagePlaceRightChest.disabled = false;
 }
 
+function fireNeckShirt() {
+    // - Clothes.Shirt `requires` Neck.Shirt
+    var clotheShirt = document.getElementById('shirt');
+    var neckShirt = document.getElementById('shirtneck');
+    var necks = document.getElementsByClassName('necks');
+    if (clotheShirt.checked === true) {
+        for (var i = 0; i < necks.length; i++) {
+            if (necks[i].id === neckShirt.id) {
+                neckShirt.checked = true;
+            } else {
+                necks[i].disabled = true;
+            }
+        }
+    } else {
+        for (var i = 0; i < necks.length; i++) {
+            necks[i].disabled = false;
+        }
+    }
+}
 
+function fireShapesBaggy() {
+    // - Clothes.Hoodie `requires` Shapes.Baggy
+    var clotheHoodie = document.getElementById('hoodie');
+    var shapeBaggy = document.getElementById('baggy');
+    var style = document.getElementsByClassName('styles');
+    if (clotheHoodie.checked === true) {
+        for (var i = 0; i < style.length; i++) {
+            if (style[i].id === shapeBaggy.id) {
+                shapeBaggy.checked = true;
+            } else {
+                style[i].disabled = true;
+            }
+        }
+    } else {
+        for (var i = 0; i < style.length; i++) {
+            style[i].disabled = false;
+        }
+    }
+}
 
+document.getElementById('-').addEventListener('click', removeImage);
+document.getElementById('+').addEventListener('click', addImage);
 
 document.getElementById('Clothes').addEventListener('click', disableNeckShirt);
 document.getElementById('Clothes').addEventListener('click', disableNeckTurtle);
@@ -238,5 +278,5 @@ document.getElementById('ImageSizes3').addEventListener('click', disableChest3);
 document.getElementById('ImageSizes3').addEventListener('click', disableShoulder3);
 document.getElementById('ImageSizes3').addEventListener('click', disableSleeves3);
 
-document.getElementById('-').addEventListener('click', removeImage);
-document.getElementById('+').addEventListener('click', addImage);
+document.getElementById('Clothes').addEventListener('click', fireNeckShirt);
+document.getElementById('Clothes').addEventListener('click', fireShapesBaggy);
